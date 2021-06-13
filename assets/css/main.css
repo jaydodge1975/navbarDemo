@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navBar {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #0064b3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6vh;
+  opacity: 0.8;
+  z-index: 10;
+}
+
+.heroSection {
+  color: #f4f4f4;
+  background: linear-gradient( rgba(0, 29, 70, .6), rgba(0, 29, 70, .6) ),url('../images/dogs.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+}
+
+.heroSectionBottom {
+  background-color: #000;
+  color: #f4f4f4;
+  text-align: center;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.emptySection1 {
+  color: #f4f4f4;
+  background-color: #0064b3;
+  /* height: 100vh; */
+  width: 20vw;
+}
+
+.emptySection2 {
+  background-color: #f4f4f4;
+  height: 100vh;
+  width: 80vw;
+}
+
+footer {
+  background-color: #0064b3;
+  height: 10vh;
+}
